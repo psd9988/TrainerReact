@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+    
+}
+
+.headerMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    width: 100vw;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    background: url('../../assets/headerBackground.jpg');
+    z-index: 1000;
+}
+
+
+.gymIconMain{
+    margin: 1rem 0 0 0;
+    width: 2rem;
+    cursor: pointer;
+
+}
+
+.trainerMainHeading{
+    color: rgb(77, 111, 122);
+    margin: 0 0 0 11rem;
+}
+
+.loginItems{
+    display: flex;
+    justify-content: space-around;
+    width: 14rem;
+    
+}

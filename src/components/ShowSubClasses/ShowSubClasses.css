@@ -1,0 +1,21 @@
+.classesToSubscribe{
+    background-color: aquamarine;
+    width: 20rem;
+    border: solid black 2px;
+}
+
+.classesToSubscribe:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.classesToSubscribeContainer{
+    margin: 2rem 0;
+}
+.ShowSubClassesMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

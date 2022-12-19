@@ -1,0 +1,46 @@
+.ContainerOfSidebar{
+    height: calc(100vh);
+    background-color: lightblue;
+    width: 15rem;
+    background-color: rgb(83, 83, 160);
+}
+
+.SidebarHeadings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(83, 83, 160);
+    height: 2rem;
+    border: black solid 1px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+
+.SidebarHeadings.inputTitle{
+    text-align: center;
+}
+.SidebarHeadings.inputDate{
+    text-align: center;
+}
+
+.SidebarHeadings::placeholder{
+    color: black;
+    text-align: center;
+}
+
+.SidebarHeadings:hover{
+    background-color: blue;
+}
+
+.gymImage{
+    width: 15rem;
+   
+}
+
+.SidebarHeadings.selectClass{
+    color: red;
+    background-color: black;
+}
