@@ -1,1 +1,1 @@
-<img src="./output.img" alt="outPut Image">
+<img src="output.img" alt="outPut Image">
